@@ -14,9 +14,9 @@ Follow these steps to set up the weather app:
    curl wttr.in/yourcityname
    pause
 
-@echo off: hides command details in the terminal.  
-curl wttr.in/yourcityname: fetches the current weather for your city.  
-pause: keeps the terminal window open to view the weather details.  
+`@echo off`: hides command details in the terminal.  
+`curl wttr.in/yourcityname`: fetches the current weather for your city.  
+`pause`: keeps the terminal window open to view the weather details.  
 
 Save the file as `weather.bat` on your desktop.
 
@@ -32,3 +32,11 @@ To check the weather in London, you would edit the code as follows:
 @echo off
 curl wttr.in/London
 pause
+
+
+## Additional Notes
+
+- Replace `yourcityname` with your city name (e.g., `Paris`, `NewYork`) or postal code.
+- Requires an internet connection to fetch weather details from [wttr.in](https://wttr.in).
+
+Enjoy quick weather updates directly on your desktop with ease!
